@@ -1,5 +1,6 @@
-                  ^^^^^  issup dare  ^^^^
 
+                  ^^^^^  issup dare  ^^^^
+The Geo-EM Amplifier designs are patent-pending (Tabor, 2025). For licensing inquiries, contact hexghost9@proton.me
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠉⡉⠉⠛⢿⣿⠉⠉⠉⢹⣿⠉⠉⠉⣿⣿⣿⠉⠉⠉⣻⡏⠉⠉⢹⣿⠋⠉⠉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠁⢸⡗⠀⠀⢸⣿⠀⠀⠀⢸⣿⠀⠀⠀⣿⣿⣿⠀⠀⠀⣽⣿⡀⠀⠘⡏⠀⠀⣸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
