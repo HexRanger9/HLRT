@@ -1,7 +1,8 @@
 
                   ^^^^^  issup dare  ^^^^
                   
-The Geo-EM Amplifier designs are patent-pending (Tabor, 2025). For licensing inquiries, contact hexghost9@proton.me
+ The Geo-EM Amplifier designs described herein are patent-pending (Tabor, 2025). For licensing inquiries, contact hexghost9@proton.me. The HLRT-CDGR framework is copyrighted by the authors, with open-source distribution under the MIT License.
+
 
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠉⡉⠉⠛⢿⣿⠉⠉⠉⢹⣿⠉⠉⠉⣿⣿⣿⠉⠉⠉⣻⡏⠉⠉⢹⣿⠋⠉⠉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
