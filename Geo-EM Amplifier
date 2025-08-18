@@ -1,0 +1,237 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Code styling
+\lstset{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+    commentstyle=\color{green!60!black},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red}
+}
+
+\title{\textbf{HLRT Geo-EM Amplifier}\\
+\large Experimental Device for Electromagnetic-Lattice Coupling\\
+\normalsize GitHub Repository Documentation}
+
+\author{Ryan Tabor}
+
+\date{August 18, 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The HLRT Geo-EM Amplifier is an experimental device designed to demonstrate electromagnetic current amplification through spacetime lattice coupling effects. The device predicts a reproducible 5-6\% current boost when electromagnetic fields interact with the underlying hexagonal lattice structure at $\lambda \approx 1.24 \times 10^{-13}$ m. This repository contains the complete hardware specifications, controller code, and simulation framework for peer review and replication.
+\end{abstract}
+
+\section{Device Overview}
+
+The Geo-EM Amplifier is a 32×32×5 cm modular tile containing:
+
+\begin{itemize}
+\item Central electromagnetic coil (120 turns, 26 AWG, 5 cm diameter)
+\item Energy storage system (4× BCAP3000 supercapacitors)
+\item Pi Pico 2W controller with safety systems
+\item Conductive graphene-enhanced PETG hull
+\item Professional measurement instrumentation
+\end{itemize}
+
+\section{Predicted Effect}
+
+The amplifier targets electromagnetic current amplification according to:
+
+\begin{equation}
+I_{\text{enhanced}} = I_{\text{baseline}} \times \left(1 + 0.05 + 0.01 \times \min\left(1, \left(\frac{V}{10}\right)^2\right)\right)
+\end{equation}
+
+Expected results:
+\begin{itemize}
+\item Baseline current: 10.0 A
+\item Enhanced current: 10.6 A 
+\item Current boost: 5-6\%
+\item Test duration: 5 seconds
+\item PWM frequency: 1 kHz at 60\% duty cycle
+\end{itemize}
+
+\section{Hardware Components}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Component} & \textbf{Specification} & \textbf{Quantity} \\
+\midrule
+\multicolumn{3}{l}{\textbf{Core System}} \\
+Hull Material & CarbonX PETG+CF, 32×32×5 cm & 1 \\
+Central Coil & 26 AWG magnet wire, 120 turns & 1 \\
+Supercapacitors & BCAP3000 (3000F, 2.7V) & 4 \\
+Controller & Pi Pico 2W (RP2350) & 1 \\
+Power MOSFET & IRLZ44N (47A, 55V) & 1 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Measurement}} \\
+Current Probe & Tektronix TCP0030A & 1 \\
+Oscilloscope & Rigol DS1054Z & 1 \\
+Arduino & Uno R3 with ACS712 sensors & 1 \\
+GPS Module & GY-NEO6MV2 & 1 \\
+Laser Meter & Bosch GLM400CL & 1 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Safety}} \\
+Emergency Stop & 22mm mushroom switch & 1 \\
+Fuses & 150A automotive fuses & 5 \\
+Power Supply & Mean Well SE-1000-12 & 1 \\
+\bottomrule
+\end{tabular}
+\caption{Complete Bill of Materials}
+\end{table}
+
+\section{Controller Code}
+
+The Pi Pico 2W runs production controller code with the following key features:
+
+\begin{itemize}
+\item 1 kHz PWM generation at 60\% duty cycle
+\item Real-time safety monitoring (voltage, current, temperature)
+\item Emergency shutdown with hardware safety relay
+\item GPS-synchronized data logging
+\item Statistical validation across multiple test runs
+\end{itemize}
+
+\section{Test Protocol}
+
+\subsection{Validation Test Sequence}
+\begin{enumerate}
+\item Record baseline current with coil inactive
+\item Activate 5-second PWM burst (1 kHz, 60\% duty cycle)
+\item Monitor with TCP0030A probe → Rigol DS1054Z oscilloscope
+\item Cross-validate with Arduino + ACS712 sensors
+\item Measure spatial effects with laser distance meter
+\item Repeat minimum 10 trials for statistical significance
+\end{enumerate}
+
+\subsection{Expected Measurements}
+\begin{itemize}
+\item \textbf{Primary}: 5-6\% current boost detection
+\item \textbf{Temporal}: GPS timestamps for all data points
+\item \textbf{Spatial}: 0.1-0.5 meter distance changes during activation
+\item \textbf{Statistical}: <5\% measurement variance across trials
+\end{itemize}
+
+\section{Simulation Framework}
+
+The included \texttt{hlrt\_lattice\_simulation.py} file provides computational validation with:
+
+\begin{itemize}
+\item Lattice field dynamics simulation
+\item Electromagnetic boost predictions
+\item Fractal dimension calculations
+\item Metric perturbation modeling
+\item Gravitational wave propagation analysis
+\end{itemize}
+
+\subsection{Key Simulation Outputs}
+\begin{align}
+\text{Lattice spacing: } \lambda &= 1.24 \times 10^{-13} \text{ m}\\
+\text{Graviton energy: } E_{\text{graviton}} &= 9.99 \times 10^6 \text{ eV}\\
+\text{Fractal dimension: } D_F &= 1.934\\
+\text{Predicted EM boost: } &= 5.8\%\\
+\text{Enhanced current: } I_{\text{enhanced}} &= 10.58 \text{ A}
+\end{align}
+
+\section{Safety Protocols}
+
+\subsection{Hardware Safety}
+\begin{itemize}
+\item Maximum BCAP voltage: 5.4V (safe operating limit)
+\item Current limiting: 20A maximum system current
+\item Emergency stop with immediate PWM shutdown
+\item Hardware safety relay for complete power cutoff
+\item Thermal monitoring with automatic shutdown
+\end{itemize}
+
+\subsection{Operational Safety}
+\begin{itemize}
+\item 60-second cooldown between test runs
+\item Continuous monitoring during all operations
+\item GPS timing for precise test synchronization
+\item Multiple independent measurement systems
+\item Comprehensive data logging for analysis
+\end{itemize}
+
+\section{Repository Structure}
+
+\begin{lstlisting}[language=bash]
+hlrt-geo-em-amplifier/
+├── README.md
+├── hlrt_lattice_simulation.py
+├── hardware/
+│   ├── controller/
+│   │   └── hlrt_pico_controller.py
+│   ├── arduino/
+│   │   └── validation_system.ino
+│   └── specifications/
+│       └── bill_of_materials.csv
+├── documentation/
+│   ├── build_instructions.md
+│   ├── safety_protocols.md
+│   └── test_procedures.md
+└── results/
+    ├── simulation_outputs/
+    └── experimental_data/
+\end{lstlisting}
+
+\section{Replication Guidelines}
+
+\subsection{Prerequisites}
+\begin{itemize}
+\item 3D printer capable of PETG+CF (350×320×325mm minimum)
+\item Standard electronics workbench with soldering equipment
+\item Professional measurement instruments (oscilloscope, current probe)
+\item Python 3.12+ with numpy, scipy, matplotlib, sympy
+\end{itemize}
+
+\subsection{Build Timeline}
+\begin{itemize}
+\item \textbf{Day 1}: 3D print hull (8 hours), wind coil, program controllers
+\item \textbf{Day 2}: Assembly, surface treatment, component integration
+\item \textbf{Day 3}: System testing, validation runs, data collection
+\end{itemize}
+
+\section{Expected Results}
+
+Upon successful replication, experimenters should observe:
+
+\begin{itemize}
+\item Consistent 5-6\% current amplification during PWM activation
+\item Reproducible results across multiple test runs (<5\% variance)
+\item Correlation between simulation predictions and measured values
+\item Spatial effects detectable with precision laser measurement
+\end{itemize}
+
+\section{Peer Review Invitation}
+
+This repository provides complete specifications for independent verification of electromagnetic-lattice coupling effects. All hardware components are commercially available, software is open-source, and methodologies are fully documented.
+
+We invite the scientific community to:
+\begin{itemize}
+\item Review the theoretical framework and simulation code
+\item Replicate the experimental apparatus
+\item Validate the predicted 5-6\% current amplification
+\item Contribute improvements and variations
+\end{itemize}
+
+\textbf{Contact}: Available through GitHub issues and discussions.
+
+\end{document}
