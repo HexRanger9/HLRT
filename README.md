@@ -60,7 +60,7 @@ This framework was developed through extensive collaboration with Claude (Anthro
 
 The HLRT-CDGR theoretical framework is released under the [MIT License](License).
 
-The Geo-EM Amplifier designs are **patent-pending** (Tabor, 2025). For licensing inquiries: hexghost9@proton.me
+The Geo-EM Amplifier designs are open release, parrallel to patent-pending (Tabor, 2025), in order to foster theoretical rigor, publicize experimental results, and validate objective truths of the observable universe. For licensing inquiries: hexghost9@proton.me
 
 ## Challenge
 
