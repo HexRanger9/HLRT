@@ -3,7 +3,7 @@
 **One postulate. 21 theorems. Zero free parameters.**
 
 *Ryan E. Tabor — Silmaril Technologies LLC*
-*Daniel M. Clancy — CDGR Framework, Zero Signal Report*
+*Daniel M. Clancy — CDIGR Framework, Zero Signal Report*
 
 ---
 
