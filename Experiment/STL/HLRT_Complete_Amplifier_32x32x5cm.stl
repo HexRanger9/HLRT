@@ -1,0 +1,86 @@
+solid HLRT_Complete_Amplifier_32x32x5cm
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 0.000000 0.000000 0.000000
+      vertex 320.000000 0.000000 0.000000
+      vertex 320.000000 320.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 -1.000000
+    outer loop
+      vertex 0.000000 0.000000 0.000000
+      vertex 320.000000 320.000000 0.000000
+      vertex 0.000000 320.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 0.000000 0.000000 50.000000
+      vertex 320.000000 320.000000 50.000000
+      vertex 320.000000 0.000000 50.000000
+    endloop
+  endfacet
+  facet normal 0.000000 0.000000 1.000000
+    outer loop
+      vertex 0.000000 0.000000 50.000000
+      vertex 0.000000 320.000000 50.000000
+      vertex 320.000000 320.000000 50.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -1.000000 0.000000
+    outer loop
+      vertex 0.000000 0.000000 0.000000
+      vertex 0.000000 0.000000 50.000000
+      vertex 320.000000 0.000000 50.000000
+    endloop
+  endfacet
+  facet normal 0.000000 -1.000000 0.000000
+    outer loop
+      vertex 0.000000 0.000000 0.000000
+      vertex 320.000000 0.000000 50.000000
+      vertex 320.000000 0.000000 0.000000
+    endloop
+  endfacet
+  facet normal 0.000000 1.000000 0.000000
+    outer loop
+      vertex 0.000000 320.000000 0.000000
+      vertex 320.000000 320.000000 50.000000
+      vertex 0.000000 320.000000 50.000000
+    endloop
+  endfacet
+  facet normal 0.000000 1.000000 0.000000
+    outer loop
+      vertex 0.000000 320.000000 0.000000
+      vertex 320.000000 320.000000 0.000000
+      vertex 320.000000 320.000000 50.000000
+    endloop
+  endfacet
+  facet normal -1.000000 0.000000 0.000000
+    outer loop
+      vertex 0.000000 0.000000 0.000000
+      vertex 0.000000 320.000000 50.000000
+      vertex 0.000000 0.000000 50.000000
+    endloop
+  endfacet
+  facet normal -1.000000 0.000000 0.000000
+    outer loop
+      vertex 0.000000 0.000000 0.000000
+      vertex 0.000000 320.000000 0.000000
+      vertex 0.000000 320.000000 50.000000
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 320.000000 0.000000 0.000000
+      vertex 320.000000 0.000000 50.000000
+      vertex 320.000000 320.000000 50.000000
+    endloop
+  endfacet
+  facet normal 1.000000 0.000000 0.000000
+    outer loop
+      vertex 320.000000 0.000000 0.000000
+      vertex 320.000000 320.000000 50.000000
+      vertex 320.000000 320.000000 0.000000
+    endloop
+  endfacet
+endsolid HLRT_Complete_Amplifier_32x32x5cm
