@@ -3,11 +3,11 @@
 ### Every Computation. Every Error. Every Correction.
 
 **Ryan E. Tabor — Silmaril Technologies LLC**
-**Compiled: March 6, 2026**
+**Compiled: March 26, 2026**
 
 ---
 
-*This document is the scrap paper. It contains every derivation, every computation, every wrong answer, and every correction that produced the 19 theorems and 4 predictions of Hexagonal Lattice Redemption Theory. Nothing is hidden. Nothing is cleaned up. The work is shown.*
+*This document is the scrap paper. It contains every derivation, every computation, every wrong answer, and every correction that produced the 21 theorems of Hexagonal Lattice Redemption Theory. Nothing is hidden. Nothing is cleaned up. The work is shown.*
 
 ---
 

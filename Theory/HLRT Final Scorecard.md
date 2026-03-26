@@ -1,5 +1,5 @@
 # HLRT — Final Scorecard
-## March 2026 | Session 8.5
+## March 26, 2026 | Canonical
 
 ---
 
@@ -173,4 +173,4 @@ Every error caught made the theory stronger.
 
 *One geometry. One scale. All physics.*
 
-*Ryan E. Tabor — Silmaril Technologies LLC — March 2026*
+*Ryan E. Tabor — Silmaril Technologies LLC — March 26, 2026*
