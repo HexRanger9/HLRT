@@ -244,7 +244,7 @@ Lorentz invariance violations would be observable but HLRT's scale-dependent eff
 - **Graphene**: Hexagonal carbon lattice applications
 - **Saturn's hexagonal storm**: Planetary-scale lattice manifestation
 - **Mycelial networks**: Fractal hexagonal growth patterns
-- **DMT/psilocin research**: Consciousness-lattice interface
+- **Consciousness research**: Lattice-scale information processing models
 
 ### 10.2 Quantum Research Alignment
 Recent quantum mechanics research ("37 dimensions" photon experiment, June 2025) validates higher-dimensional lattice interactions.

@@ -350,7 +350,7 @@ CME Enhancement: Additional 3-5% during X-class events
 ### Phase 3: Analysis (July 21-31)
 - Day 15-17: Statistical analysis
 - Day 18-20: Report compilation
-- Day 21+: Dawn/BICASA presentation preparation
+- Day 21+: Results presentation and publication preparation
 
 ---
 
@@ -377,7 +377,7 @@ Cost: ~$50,000
 Target: "Xbox-sized" home unit
 Power: 1-10 kWh storage
 Price Point: $500-2000
-Distribution: BICASA/cooperative model
+Distribution: Cooperative/direct-to-consumer model
 ```
 
 ---
