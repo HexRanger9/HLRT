@@ -196,7 +196,7 @@ These are computational, not conceptual — the framework is complete:
 
 **Ryan E. Tabor** — Silmaril Technologies LLC. U.S. Army Infantry Officer, GWOT combat veteran. Primary author: T1–T21, experimental design, all derivations.
 
-**Daniel M. Clancy** — Zero Signal Report. USMC Infantryman, GWOT combat veteran. CDGR (Core Displacement & Geodynamic Rebalancing) framework, geophysical integration.
+**Daniel M. Clancy** — Zero Signal Report. USMC Infantryman, GWOT combat veteran. CDIGR (Core Displacement & Geodynamic Rebalancing) framework, geophysical integration.
 
 Developed through collaboration with multiple AI systems (Claude, ChatGPT, Grok, Gemini, Perplexity) for cross-validation. All theoretical claims stress-tested independently. Every error caught was corrected transparently.
 
