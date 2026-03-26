@@ -17,19 +17,13 @@ Everything else is consequence.
 
 ## The Object
 
-The 7-cell hexagonal flower — one central hexagon surrounded by six neighbors — is the fundamental blocking unit of the lattice. Its topology is fixed:
+<p align="center">
+  <img src="assets/flower_graph.svg" alt="7-Cell Hexagonal Flower Graph" width="580" />
+</p>
 
-| Property | Value |
-|----------|-------|
-| Vertices (V) | 24 |
-| Edges (E) | 30 |
-| Faces (F) | 7 |
-| Euler characteristic (χ) | 1 |
-| Symmetry | C₆ |
-| Blocking factor | √7 |
-| 4D cells (A₂ × A₂) | 49 |
+The 7-cell hexagonal flower — one central hexagon surrounded by six neighbors — is the fundamental blocking unit of the lattice. Its topology is fixed: V=24 vertices, E=30 edges, F=7 faces, Euler characteristic χ=1, C₆ symmetry, √7 blocking factor, and 49 four-cells in the A₂ × A₂ product.
 
-The flower graph is derived from first principles: pointy-top hexagonal orientation at spacing √3, with adjacent hexagons sharing vertices. The resulting adjacency spectrum reproduces the full Dirac operator structure. From these numbers — and nothing else — the Standard Model emerges.
+The flower graph is derived from first principles: pointy-top hexagonal orientation at spacing √3, with adjacent hexagons sharing vertices. The resulting adjacency spectrum (ρ = 1+√7, Tr(A⁴) = 204) reproduces the full Dirac operator structure. From these numbers — and nothing else — the Standard Model emerges.
 
 ---
 
@@ -166,10 +160,18 @@ Every arrow uses the same flower geometry. No parameters introduced at any step.
 HLRT/
 ├── README.md
 ├── LICENSE
+├── assets/
+│   └── flower_graph.svg               ← 7-cell flower illustration
 ├── Theory/
 │   ├── HLRT_White_Paper_v5_0.pdf      ← canonical document
 │   ├── HLRT_White_Paper_v5_0.tex
-│   └── (historical: v4 paper, canonical workbook)
+│   ├── HLRT Final Scorecard.md
+│   ├── HLRT_Canonical_Workbook.md
+│   └── HLRT_CDIGR_THEORETICAL_FRAMEWORK.md
+├── Computation/
+│   ├── HLRT_MATHEMATICA_FRAMEWORK.wl
+│   ├── hlrt_master_test_suite.py      ← 9/9 v5.0 validations
+│   └── quantum_walk_validation.py     ← 23/23 flower graph tests
 └── Experiment/
     ├── GEO_EM_AMPLIFIER_SPECIFICATIONS.md
     ├── HLRT_CONTROL_SYSTEM.py
